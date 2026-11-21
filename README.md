@@ -1,5 +1,7 @@
 # asset-lifecycle-forecaster
 
+[![CI](https://github.com/yassine2med/asset-lifecycle-forecaster/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/asset-lifecycle-forecaster/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 Capital planning starts with one question: which assets reach the end of their expected life, and when. This tool reads an asset list with install year, expected life and replacement cost, and prints how many assets and how much money fall due in each year. Assets already past their life are listed separately and counted in the current year.
 
 ![Screenshot](docs/screenshot.png)
